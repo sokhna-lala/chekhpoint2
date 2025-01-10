@@ -1,0 +1,33 @@
+.container {
+  display: flex; /* Active le modèle flexbox */
+  justify-content: center; /* Centre horizontalement les éléments */
+  align-items: center; /* Centre verticalement les éléments (si nécessaire) */
+  margin-top: 20px; /* Ajoute une marge supérieure (tu peux ajuster la valeur selon tes besoins) */
+}
+
+#color-box {
+  width: 200px; /* Définit la largeur du box (ajuste la valeur si nécessaire) */
+  height: 150px; /* Définit la hauteur du box (ajuste la valeur si nécessaire) */
+  background-color: #3498db; /* Définit la couleur d'arrière-plan par défaut (par exemple, bleu) */
+}
+#change-collor-btn {
+  margin-top: 20px;
+  background-color: #dbc234;
+  color: aliceblue;
+  border: oldlace;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.5s ease; /* Ajoute une transition fluide lors du changement de couleur d'arrière-plan */
+}
+/* Dans le gestionnaire d'événement, sélectionnez les éléments color-box et change-color-btn en utilisant document.getElementById() .*/
+#color-box {
+  width: 200px;
+  height: 200px;
+  background-color: lightgray;
+  margin: 20px;
+}
+#change-color-btn :hover {
+  background-color: #3498db; /* Change la couleur d'arrière-plan au survol */
+}
